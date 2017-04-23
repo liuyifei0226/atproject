@@ -13,7 +13,7 @@ from atproject.Application.NumberFormats import formatIntClock
 from atproject.Application.parsedir import parsedir
 from atproject.Network.natpunch import UPnP_test
 from atproject.clock import clock
-from att.Application.PeerID import createPeerID, mapbase64
+from atproject.Application.PeerID import createPeerID, mapbase64
 
 
 class SingleDownload:
