@@ -19,6 +19,7 @@ setup(
               "atproject.Network",
               "atproject.Storage",
               "atproject.Tracker",
+              "atproject.Download"
              ],
 
     scripts=["academictorrents.py"]
