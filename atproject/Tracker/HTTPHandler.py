@@ -2,7 +2,7 @@ import sys
 import time
 import gzip
 from cStringIO import StringIO
-from att.clock import clock
+from atproject.clock import clock
 
 DEBUG = False
 
