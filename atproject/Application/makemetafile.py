@@ -2,8 +2,8 @@
 import os
 import threading
 from traceback import print_exc
-from att.Meta.BTTree import BTTree
-from att.Meta.Info import MetaInfo
+from atproject.Meta.BTTree import BTTree
+from atproject.Meta.Info import MetaInfo
 
 defaults = [
     ('announce_list', '',
