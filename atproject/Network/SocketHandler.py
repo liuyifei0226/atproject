@@ -6,7 +6,7 @@ try:
     from select import poll, POLLIN, POLLOUT, POLLERR, POLLHUP
 except ImportError:
     from .selectpoll import poll, POLLIN, POLLOUT, POLLERR, POLLHUP
-from att.clock import clock
+from atproject.clock import clock
 from .natpunch import UPnP_open_port, UPnP_close_port
 
 POLLALL = POLLIN | POLLOUT
