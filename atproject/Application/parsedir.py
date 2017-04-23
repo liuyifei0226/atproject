@@ -3,8 +3,8 @@
 
 import os
 import hashlib
-from att.Meta.bencode import bencode
-from att.Meta.Info import check_info, MetaInfo
+from atproject.Meta.bencode import bencode
+from atproject.Meta.Info import check_info, MetaInfo
 
 
 def _errfunc(msg):
