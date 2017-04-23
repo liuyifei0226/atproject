@@ -1,5 +1,5 @@
 import math
-from att.clock import clock
+from atproject.clock import clock
 from .CurrentRateMeasure import Measure
 
 DEBUG = False
