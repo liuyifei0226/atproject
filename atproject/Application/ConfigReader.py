@@ -5,8 +5,8 @@ from .ConfigDir import ConfigDir
 from .ConnChoice import connChoices
 from .GUI import StaticText
 from .parseargs import defaultargs
-from att.Client.download_bt1 import defaults
-from att.Network.BTcrypto import CRYPTO_OK
+from atproject.Client.download_bt1 import defaults
+from atproject.Network.BTcrypto import CRYPTO_OK
 
 if sys.platform == 'win32':
     _FONT = 9
