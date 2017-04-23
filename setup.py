@@ -19,7 +19,7 @@ setup(
               "atproject.Network",
               "atproject.Storage",
               "atproject.Tracker",
-              "academictorrents.py"],
+             ],
 
     scripts=["academictorrents.py"]
 )
