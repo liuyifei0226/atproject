@@ -1,8 +1,6 @@
-product_name = 'att'
+product_name = 'atproject'
 version_short = 'T-0.4.0'
 
-version = version_short + ' (' + product_name + ')'
-report_url = 'https://github.com/effigies/att/issues/new'
 
 __author__ = """
 Christopher J. Markiewicz <effigies@gmail.com>
