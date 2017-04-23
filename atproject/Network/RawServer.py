@@ -6,7 +6,7 @@ import threading
 from cStringIO import StringIO
 from traceback import print_exc
 from .SocketHandler import SocketHandler
-from att.clock import clock
+from atproject.clock import clock
 
 
 def autodetect_ipv6():
