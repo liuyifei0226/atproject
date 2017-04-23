@@ -3,7 +3,7 @@ import time
 import base64
 import hashlib
 import itertools
-import att
+import atproject
 
 mapbase64 = '0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz.-'
 
