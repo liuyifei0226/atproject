@@ -17,7 +17,7 @@ from atproject.Network.SocketHandler import UPnP_ERROR
 from atproject.Meta.bencode import bencode
 from atproject.Network.natpunch import UPnP_test
 from atproject.clock import clock
-from atproject import version
+#from atproject import version
 from atproject.Application.ConfigDir import ConfigDir
 from atproject.Application.NumberFormats import formatIntText
 from atproject.Application.PeerID import createPeerID
