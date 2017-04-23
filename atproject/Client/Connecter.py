@@ -1,5 +1,5 @@
-from att.bitfield import Bitfield
-from att.clock import clock
+from atproject.bitfield import Bitfield
+from atproject.clock import clock
 from binascii import hexlify, unhexlify
 
 DEBUG1 = False
