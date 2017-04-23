@@ -1,8 +1,8 @@
 import hashlib
 import random
 import bisect
-from att.bitfield import Bitfield
-from att.clock import clock
+from atproject.bitfield import Bitfield
+from atproject.clock import clock
 
 DEBUG = False
 
