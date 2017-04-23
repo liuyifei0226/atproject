@@ -1,7 +1,7 @@
 """Manage application-specific configuration and caches
 """
 
-import att
+import atproject
 import sys
 import os
 import time
