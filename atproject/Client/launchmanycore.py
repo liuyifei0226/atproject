@@ -5,14 +5,14 @@ import random
 from cStringIO import StringIO
 from traceback import print_exc
 from .download_bt1 import BT1Download
-from att.Network.RawServer import RawServer
-from att.Network.SocketHandler import UPnP_ERROR
+from atproject.Network.RawServer import RawServer
+from atproject.Network.SocketHandler import UPnP_ERROR
 from .RateLimiter import RateLimiter
-from att.Network.ServerPortHandler import MultiHandler
-from att.Application.NumberFormats import formatIntClock
-from att.Application.parsedir import parsedir
-from att.Network.natpunch import UPnP_test
-from att.clock import clock
+from atproject.Network.ServerPortHandler import MultiHandler
+from atproject.Application.NumberFormats import formatIntClock
+from atproject.Application.parsedir import parsedir
+from atproject.Network.natpunch import UPnP_test
+from atproject.clock import clock
 from att.Application.PeerID import createPeerID, mapbase64
 
 
