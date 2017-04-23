@@ -18,9 +18,9 @@ class PeerID(object):
 
     def __init__(self):
         self.prefix = '{}{:-<5}'.format(
-            att.version_short[0], ''.join(
+            atproject.version_short[0], ''.join(
                 mapbase64[int(subversion or 0)] for subversion in
-                att.version_short[2:].split('.')))
+                atproject.version_short[2:].split('.')))
 
         self.reset()
 
