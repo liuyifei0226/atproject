@@ -5,7 +5,7 @@ import atproject
 
 setup(
     name="atproject",
-    version=atproject.version,
+    version=0.01,
     author="test",
     author_email="<liuyifei0226@gmail.com>",
     url="https://github.com/atproject/",
