@@ -1,7 +1,7 @@
 import random
 from .CurrentRateMeasure import Measure
-from att.bitfield import Bitfield
-from att.clock import clock
+from atproject.bitfield import Bitfield
+from atproject.clock import clock
 
 EXPIRE_TIME = 60 * 60
 
