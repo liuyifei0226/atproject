@@ -4,8 +4,8 @@ import httplib
 import urllib
 from urlparse import urlparse
 from .CurrentRateMeasure import Measure
-from att.bitfield import TrueBitfield
-from att import product_name, version_short
+from atproject.bitfield import TrueBitfield
+from atproject import product_name, version_short
 
 EXPIRE_TIME = 60 * 60
 
