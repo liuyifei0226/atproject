@@ -1,4 +1,4 @@
-from att.clock import clock
+from atproject.clock import clock
 
 
 class Measure:
