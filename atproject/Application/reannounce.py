@@ -1,4 +1,4 @@
-from att.Meta.Info import MetaInfo
+from atproject.Meta.Info import MetaInfo
 
 
 def reannounce(fname, announce, announce_list=None, verbose=False):
