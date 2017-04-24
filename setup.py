@@ -13,6 +13,7 @@ setup(
     license="MIT",
 
     packages=["atproject",
+              "icons",
     		"atproject.Application",
               "atproject.Client",
               "atproject.Meta",
