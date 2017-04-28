@@ -11,7 +11,7 @@ setup(
     url="https://github.com/atproject/",
     description="John Hoffman's fork of the original bittorrent",
     license="MIT",
-
+    py_modules=['academictorrents'],
     packages=["atproject",
               "icons",
     		  "atproject.Application",
