@@ -14,7 +14,7 @@ setup(
 
     packages=["atproject",
               "icons",
-    		"atproject.Application",
+    		  "atproject.Application",
               "atproject.Client",
               "atproject.Meta",
               "atproject.Network",
