@@ -14,7 +14,6 @@ setup(
     py_modules=['academictorrents'],
     package_data=['atproject.icons/*']
     packages=["atproject",
-              "icons",
     		  "atproject.Application",
               "atproject.Client",
               "atproject.Meta",
