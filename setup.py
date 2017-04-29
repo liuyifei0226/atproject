@@ -12,7 +12,7 @@ setup(
     description="John Hoffman's fork of the original bittorrent",
     license="MIT",
     py_modules=['academictorrents'],
-    package_data={'atproject':['atproject.icons/*']},
+    package_data={'atproject':['atproject.icons/*.ico']},
     include_package_data=True,
     packages=["atproject",
     		  "atproject.Application",
