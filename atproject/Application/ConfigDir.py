@@ -13,7 +13,7 @@ from .CreateIcons import GetIcons, CreateIcon
 from .parseargs import defaultargs
 
 try:
-    OLDICONPATH = os.path.join(os.path.dirname(os.path.realpath(sys.argv[0])))
+    OLDICONPATH = os.path.join(os.path.dirname(os.path.realpath(sys.argv[0])))  #--> /home
 except AttributeError:
     OLDICONPATH = os.path.join(os.path.abspath(os.path.dirname(sys.argv[0])))
 
