@@ -13,6 +13,7 @@ setup(
     license="MIT",
     py_modules=['academictorrents'],
     package_data={'atproject':['atproject.icons/*']},
+    include_package_data=True,
     packages=["atproject",
     		  "atproject.Application",
               "atproject.Client",
