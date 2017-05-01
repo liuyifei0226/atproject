@@ -2,9 +2,8 @@
 
 # How to Install:
   in termimal copy the following command:
-  (1) if you have administrator permission:
   
-      '''python
+  (1) if you have administrator permission:
       
       sodu pip install git+https://github.com/liuyifei0226/atproject
       
