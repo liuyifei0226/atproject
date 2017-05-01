@@ -5,7 +5,7 @@
   
   (1) if you have administrator permission:
       
-      sodu pip install git+https://github.com/liuyifei0226/atproject
+      sudo pip install git+https://github.com/liuyifei0226/atproject
       
   (2) If you do not have administrator permission， please use:
       
