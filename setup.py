@@ -6,7 +6,7 @@ import atproject
 setup(
     name="atproject",
     version=0.01,
-    author="test",
+    author="AT_group",
     author_email="<liuyifei0226@gmail.com>",
     url="https://github.com/atproject/",
     description="John Hoffman's fork of the original bittorrent, we do some modify and use it as torrent download library",
