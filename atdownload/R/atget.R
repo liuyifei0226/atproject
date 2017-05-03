@@ -10,8 +10,8 @@
 atget <- function(name){
        
     script <- paste(system.file(package="atdownload"), "atdownload.py", sep="/")
-  	command <- paste("python", script, name)
-  	system(command, intern=T)
+  	script <- paste(system.file(package="atdownload"), "atdownload.py", sep="/")
+  	system2('python',args=c(as.character(script), as.character(name)))
   	
 }
 
