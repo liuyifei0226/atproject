@@ -9,7 +9,7 @@ setup(
     author="test",
     author_email="<liuyifei0226@gmail.com>",
     url="https://github.com/atproject/",
-    description="John Hoffman's fork of the original bittorrent",
+    description="John Hoffman's fork of the original bittorrent, we do some modify and use it as torrent download library",
     license="MIT",
     py_modules=['academictorrents'],
     package_data={'atproject':['atproject/icons/*.ico']},
