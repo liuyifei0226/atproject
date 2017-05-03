@@ -23,6 +23,8 @@ setup(
               "atproject.Tracker",
               "atproject.Download"
              ],
-
+    install_requires=[
+          'win_inet_pton',
+      ],
     scripts=["academictorrents.py"]
 )
