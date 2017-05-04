@@ -6,10 +6,10 @@ import atproject
 setup(
     name="atproject",
     version=0.01,
-    author="AT_group",
+    author="Chris Markiewicz, Bram Cohen, John Hoffman, Uoti Arpala et. al., AT_group",
     author_email="<liuyifei0226@gmail.com>",
     url="https://github.com/atproject/",
-    description="John Hoffman's fork of the original bittorrent, we do some modify and use it as torrent download library",
+    description="John Hoffman's fork of the original bittorrent, for Academictorrents.com. We made some modifications and created API to download files listed at Academictorrents.com",
     license="MIT",
     py_modules=['academictorrents'],
     package_data={'atproject':['atproject/icons/*.ico']},
