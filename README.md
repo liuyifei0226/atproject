@@ -1,5 +1,9 @@
 # Atproject
 
+Becuase this package in under development, so we have not upload it to PyPI yet. When this project is good enough,
+
+we will upload it to PyPI, at that time, user can use "pip install academictorrents" install this module.
+
 # How to Install:
   in termimal copy the following command:
   
