@@ -106,6 +106,8 @@ class HeadlessDisplayer:
         print 'share rating:  ', self.shareRating
         print 'seed status:   ', self.seedStatus
         print 'peer status:   ', self.peerStatus
+        if self.timeEst == "Download Succeeded!":
+        	exit()
         sys.stdout.flush()
         dpflag.set()
 
