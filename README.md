@@ -9,16 +9,28 @@ we will upload it to PyPI, at that time, user can use "pip install academictorre
   
   (1) if you have administrator permission:
       
-      sudo pip install git+https://github.com/liuyifei0226/atproject
+      User$ sudo pip install git+https://github.com/liuyifei0226/atproject
       
   (2) If you do not have administrator permission， please use:
       
-      pip install git+https://github.com/liuyifei0226/atproject --user
+      User$ pip install git+https://github.com/liuyifei0226/atproject --user
+      
+  (3) If you want to install from PyPi:
+  
+     -- with admin permission:
+    
+          User$ sudo pip install atproject
+    
+     -- without permission:
+    
+          User$ sudo pip install atproject --user
+      
+      
       
 # How to use:
   (1) After installing the Academictorrents, enter python in terminal, get into python commond line:
   
-      python
+      User$ python
       
   and you'll see
   
@@ -27,9 +39,10 @@ we will upload it to PyPI, at that time, user can use "pip install academictorre
   This means you're in python now.
   
   (2) Import academictorrents in your python. 
+  
   For your convinience, you can import it as at for short:
   
-      import academictorrents as at
+      >>>import academictorrents as at
     
   (3) Download the file. 
   Use the command at.get(" ") to download the file you need. Here you should pay attention that your current path should be higher than the folder you save your .torrent file. For example, if you put your .torrent file in the folder /Users/ABC/Downloads, you should at Downloads or ABC to download the file.
@@ -68,4 +81,16 @@ we will upload it to PyPI, at that time, user can use "pip install academictorre
       seed status:    4 seen now, plus 0.000 distributed copies
       peer status:    0 seen now, 0.0% done at 0.0 kB/s
       
- Congratulations! This means your academic torrents works perfect. You can Press "Control+C" to quit and get back to python.
+ Congratulations! This means your academic torrents works perfect. 
+ 
+ After download finish, it will use exit() to jump out.
+ 
+# How to Uninstall:
+
+  (1) if you have administrator permission, and install to a system path:
+      
+      sudo pip uninstall atproject
+      
+  (2) If you do not have administrator permission，and intall to User:
+      
+      pip uninstall atproject
